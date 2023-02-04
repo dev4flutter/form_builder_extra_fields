@@ -19,6 +19,7 @@ void main() {
       name: textFieldName,
       initialValue: initialTextValue,
       controller: textEditingController,
+      scrollController: ScrollController(),
       itemBuilder: (context, country) {
         return ListTile(title: Text(country));
       },
