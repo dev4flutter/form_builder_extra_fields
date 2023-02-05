@@ -9,7 +9,7 @@ void main() {
   testWidgets('FormBuilderTypeahead -- Two', (WidgetTester tester) async {
     const options = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'];
     const initialTextValue = 'One';
-    const newTextValue = 'Two';
+    const newTextValue = 'Three';
     const textFieldName = 'typeahead1';
     final textEditingController = TextEditingController();
     final testWidgetKey = GlobalKey<FormBuilderFieldState>();
